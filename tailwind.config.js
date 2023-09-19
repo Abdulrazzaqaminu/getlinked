@@ -14,7 +14,6 @@ export default {
         primary: "#903AFF",
         lightPurple: "#D434FE",
         customPink: "#FE34B9",
-        gradient: 'linear-gradient(90deg, #903AFF 0%, #FE34B9 100%)',
         borderWhite: '#ffffff2e'
       },
       fontFamily: {
