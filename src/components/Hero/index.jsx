@@ -39,7 +39,7 @@ export const Hero = () => {
                         a chance to win a Big prize
                     </div>
                     <button className='bg-gradient focus:outline-none rounded px-[46px] md:px-[52px] py-[14.5px] md:py-4 transform hover:scale-105 transition-transform duration-300 hover:bg-opacity-90 mb-[14px] md:mb-[77px] w-fit' onClick={() => navigate('/register')}>Register</button>
-                    <img src={countdown} alt="Timer Icon" width={285} height={85} />
+                    <img src={countdown} alt="Timer Icon" width={285} height={85} className='mb-[11.7px] md:mb-0' />
 
                 </div>
                 <div><img src={man} alt="Man wearing smart glasses touching virtual screen" width={828} height={715} /></div>
