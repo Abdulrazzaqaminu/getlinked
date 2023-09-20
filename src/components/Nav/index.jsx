@@ -18,8 +18,13 @@ export const Nav = () => {
         { id: "contact", name: "Contact", isRoute: true },
     ]
     return (
-        <nav className='mt-[33.92px] md:mt-16 mb-[29.92px]  border-opacity-10  mx-12 md:mx-32 flex justify-between items-center'>
-            <img src={logo} alt="Get Linked Logo" className={`cursor-pointer ${isMobile && toggle && 'opacity-0'}`} width={isMobile ? 100 : 171} height={44} />
+        <nav className={`pt-[33.92px] md:pt-[67px] pb-[29.92px] px-12 md:px-32 flex justify-between items-center backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-borderWhite `}>
+            <img
+                src={logo}
+                alt="Get Linked Logo"
+                className={`cursor-pointer ${isMobile && toggle && 'opacity-0'}`} width={isMobile ? 100 : 171}
+                height={44}
+            />
 
             {isMobile ? ( // Mobile Nav
                 <div className="md:hidden flex items-center">
